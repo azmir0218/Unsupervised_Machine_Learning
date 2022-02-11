@@ -22,13 +22,28 @@
 
 * Standardized dataset so that columns that contain larger values do not unduly influence the outcome.
 
+<img width="592" alt="Screen Shot 2021-10-28 at 6 29 10 PM" src="https://github.com/azmir0218/Unsupervised_Machine_Learning/blob/main/photos/transformation.png">
+
+
 ### Dimensionality Reduction
 
 * Performed dimensionality reduction with PCA. Preserved 90% of the explained variance in dimensionality reduction. 
 
 * Next, further reduced the dataset dimensions with t-SNE and visually inspected the results. 
 
+<img width="592" alt="Screen Shot 2021-10-28 at 6 29 10 PM" src="https://github.com/azmir0218/Unsupervised_Machine_Learning/blob/main/photos/tsne.png">
+
+
 ### Cluster Analysis with k-Means
 
 * Created an elbow plot to identify the best number of clusters. Used a for-loop to determine the inertia for each `k` between 1 through 10. Determined, if possible, where the elbow of the plot is, and at which value of `k` it appears.
+
+#### Elbow curve
+
+<img width="592" alt="Screen Shot 2021-10-28 at 6 29 10 PM" src="https://github.com/azmir0218/Unsupervised_Machine_Learning/blob/main/photos/elbow.png">
+
+#### Different Clusters
+
+<img width="592" alt="Screen Shot 2021-10-28 at 6 29 10 PM" src="https://github.com/azmir0218/Unsupervised_Machine_Learning/blob/main/photos/kmeans.png">
+
 
